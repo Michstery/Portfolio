@@ -1,0 +1,36 @@
+{
+  "name": "micheal-macaulay",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-sanitizer": "^1.0.5",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.6.10",
+    "nodemailer": "^6.3.0",
+    "ws": "^3.3.2",
+    "npm": "6.9.0",
+    "node": "8.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michstery/Portfolio.git"
+  },
+  "author": "Micheal Macaulay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michstery/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Michstery/Portfolio#readme"
+}

@@ -244,7 +244,7 @@ a.active {
 
 
 #home {
-    background: url(../img/tourism.jpg);
+    background: url(/img/tourism.jpg);
     background-size: cover;
     height: 100vh;
     background-position: center;
@@ -254,6 +254,7 @@ a.active {
 .table-cell {
     display: table-cell;
     vertical-align: middle;
+    padding: 10%;
 }
 
 .disply-table {

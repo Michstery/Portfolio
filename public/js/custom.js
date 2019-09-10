@@ -105,40 +105,8 @@ $(document).ready(function () {
 
     //animatedModal
     $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
-
-    // Contact Form 	
-
-    // validate contact form
     $(function () {
-        $('#contact-form').validate({
-            rules: {
-                name: {
-                    required: true,
-                    minlength: 2
-                },
-                email: {
-                    required: true
-                },
-                phone: {
-                    required: false
-                },
-                message: {
-                    required: true
-                }
-
-            },
-            messages: {
-                name: {
-                    required: "This field is required",
-                    minlength: "your name must consist of at least 2 characters"
-                },
-                email: {
-                    required: "This field is required"
-                },
-                message: {
-                    required: "This field is required"
-                }
-            },
+        $('contact-form').validate({
             submitHandler: function (form) {
                 $(form).ajaxSubmit({
                     type: "POST",
@@ -160,6 +128,6 @@ $(document).ready(function () {
                 });
             }
         });
-
     });
+
 });
