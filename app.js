@@ -20,6 +20,7 @@ app.get("/", function (req, res) {
 });
 
 app.post("/send-email", function (req, res) {
+    console.log(6787678)
 
     let transporter = nodeMailer.createTransport({
         host: 'smtp.gmail.com',
